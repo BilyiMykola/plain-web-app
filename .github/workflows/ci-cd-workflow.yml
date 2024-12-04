@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: CI/CD Workflow
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  build-and-push:
-    name: Build and Push Docker Image to Docker Hub
+  ci-cd-workflow:
+    name: CI/CD Workflow
     runs-on: ubuntu-latest
 
     steps:
