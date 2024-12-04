@@ -26,5 +26,5 @@ jobs:
 
     - name: Push Docker Image to Docker Hub
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/my-image:latest
+        docker push ${{ secrets.DOCKER_USERNAME }}/plain-web-app-image:latest
 
